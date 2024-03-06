@@ -14,7 +14,7 @@ module.exports = {
     */
     await queryInterface.bulkInsert('Colors', [
       { name: 'red' }, { name: 'blue' }, { name: 'yellow' }
-    ])
+    ]);
   },
 
   async down(queryInterface, Sequelize) {
